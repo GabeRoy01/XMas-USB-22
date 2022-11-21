@@ -14,6 +14,8 @@ To access the actual storage of Pico, you'll want to hold down on the button mar
 
 To make it easier, when you set one of these up the first time you can copy the contents of the `lib` directory along with the `code.py`, `boot.py`, and `payload.dd` files. That way, you won't have to do all that much in terms of dragging and dropping. 
 
+When configuring, in order to stop the mass storage device from being displayed, you will want to go into the `boot.py` file and change Line 10 to say: `if(noStorageStatus == False):`. This will be the LAST step you do, as in order to go back into startup mode you'll need to use jumper wires or reformat the device.
+
 As always, please feel free to contact me if you have any questions or need help working it out.
 
 Happy Hacking! (In an educational context only! I am in no way, shape, or form liable for any unauthorized usages of these devices. If you decide to do something edgy and get caught, it is on YOU.)
