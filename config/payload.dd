@@ -1,0 +1,8 @@
+REM CyberClubBadUSB
+GUI r
+STRING cmd.exe
+ENTER
+DELAY 200
+STRING start https://github.com/GabeRoy01/XMas-USB-22
+ENTER
+
